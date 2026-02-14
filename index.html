@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="مبادرة شباب بلا حدود - نصنع وعياً… ونصنع أثراً لا ينتهي | انضم إلينا كمتطوع وكن جزءاً من التغيير">
+    <meta name="keywords" content="تطوع, شباب, مبادرة, مجتمع, مصر">
+    <meta name="author" content="مبادرة شباب بلا حدود">
+    <title>مبادرة شباب بلا حدود | نصنع وعياً… ونصنع أثراً لا ينتهي</title>
+    
+    <!-- Google Fonts - Cairo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ============================================
+         Scroll Progress Indicator
+         ============================================ -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- ============================================
+         Floating CTA Button
+         ============================================ -->
+    <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="floating-cta" id="floatingCta">
+        <i class="fas fa-hand-holding-heart"></i>
+        <span>تطوع الآن</span>
+    </a>
+
+    <!-- ============================================
+         Sticky Navigation
+         ============================================ -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <img src="https://i.postimg.cc/nVyDXfDg/FB-IMG-1771079602601.jpg" alt="شعار مبادرة شباب بلا حدود" class="nav-logo-img">
+                <span class="nav-logo-text">شباب بلا حدود</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">الرئيسية</a></li>
+                <li><a href="#why-volunteer" class="nav-link">لماذا التطوع</a></li>
+                <li><a href="#achievements" class="nav-link">إنجازاتنا</a></li>
+                <li><a href="#team" class="nav-link">فريقنا</a></li>
+                <li><a href="#partners" class="nav-link">شركاؤنا</a></li>
+                <li><a href="#contact" class="nav-link nav-link-cta">انضم إلينا</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="فتح القائمة">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ============================================
+         Hero Section
+         ============================================ -->
+    <section class="hero" id="home">
+        <!-- Animated Background -->
+        <div class="hero-bg">
+            <div class="hero-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+            <div class="hero-particles">
+                <span></span><span></span><span></span>
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+
+        <div class="hero-content">
+            <!-- Initiative Logo -->
+            <div class="hero-logo fade-in">
+                <img src="https://i.postimg.cc/nVyDXfDg/FB-IMG-1771079602601.jpg" alt="شعار مبادرة شباب بلا حدود">
+            </div>
+            
+            <h1 class="hero-title fade-in">
+                مبادرة <span class="text-gradient">شباب بلا حدود</span>
+            </h1>
+            
+            <p class="hero-subtitle fade-in">نصنع وعياً… ونصنع أثراً لا ينتهي</p>
+            
+            <div class="hero-buttons fade-in">
+                <a href="#contact" class="btn btn-primary">
+                    <i class="fas fa-hand-holding-heart"></i>
+                    <span>كن متطوعًا الآن</span>
+                </a>
+                <a href="#why-volunteer" class="btn btn-secondary">
+                    <span>تعرف علينا</span>
+                    <i class="fas fa-arrow-down"></i>
+                </a>
+            </div>
+
+            <!-- Scroll Indicator -->
+            <div class="hero-scroll">
+                <span>اكتشف المزيد</span>
+                <div class="scroll-mouse">
+                    <div class="scroll-wheel"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         Why Volunteer Section
+         ============================================ -->
+    <section class="why-volunteer" id="why-volunteer">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <span class="section-badge">انضم إلينا</span>
+                <h2 class="section-title">لماذا تكون متطوعًا في شباب بلا حدود؟</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="benefits-grid">
+                <!-- Benefit 1 -->
+                <div class="benefit-card fade-in-up">
+                    <div class="benefit-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>تصنع أثرًا حقيقيًا</h3>
+                    <p>ساهم في إحداث تغيير إيجابي ملموس في مجتمعك وحياة الآخرين من حولك</p>
+                </div>
+
+                <!-- Benefit 2 -->
+                <div class="benefit-card fade-in-up" data-delay="0.1">
+                    <div class="benefit-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>تكتسب خبرة عملية</h3>
+                    <p>اكتسب مهارات جديدة وخبرات عملية تُثري سيرتك الذاتية ومسيرتك المهنية</p>
+                </div>
+
+                <!-- Benefit 3 -->
+                <div class="benefit-card fade-in-up" data-delay="0.2">
+                    <div class="benefit-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>تبني شبكة علاقات قوية</h3>
+                    <p>تعرّف على أشخاص ملهمين وابنِ علاقات مهنية واجتماعية قيّمة</p>
+                </div>
+
+                <!-- Benefit 4 -->
+                <div class="benefit-card fade-in-up" data-delay="0.3">
+                    <div class="benefit-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <h3>تطور مهارات القيادة</h3>
+                    <p>طوّر قدراتك القيادية من خلال المشاركة في تنظيم وإدارة الفعاليات</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         Statistics Section
+         ============================================ -->
+    <section class="statistics" id="statistics">
+        <div class="stats-bg"></div>
+        <div class="container">
+            <div class="stats-grid">
+                <!-- Stat 1 -->
+                <div class="stat-card fade-in-up">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-number" data-target="80">0</div>
+                    <div class="stat-label">متطوع نشط</div>
+                </div>
+
+                <!-- Stat 2 -->
+                <div class="stat-card fade-in-up" data-delay="0.1">
+                    <div class="stat-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <div class="stat-number" data-target="3">0</div>
+                    <div class="stat-label">فعاليات منجزة</div>
+                </div>
+
+                <!-- Stat 3 -->
+                <div class="stat-card fade-in-up" data-delay="0.2">
+                    <div class="stat-icon">
+                        <i class="fas fa-hand-holding-heart"></i>
+                    </div>
+                    <div class="stat-number" data-target="100">0</div>
+                    <div class="stat-label">مستفيد من أثر طيب</div>
+                </div>
+
+                <!-- Stat 4 -->
+                <div class="stat-card fade-in-up" data-delay="0.3">
+                    <div class="stat-icon">
+                        <i class="fas fa-box-open"></i>
+                    </div>
+                    <div class="stat-number" data-target="13000">0</div>
+                    <div class="stat-label">كرتونة رمضانية</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         Achievements Section
+         ============================================ -->
+    <section class="achievements" id="achievements">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <span class="section-badge">إنجازاتنا</span>
+                <h2 class="section-title">أعمالنا ومبادراتنا</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="achievements-grid">
+                <!-- Achievement 1 -->
+                <div class="achievement-card fade-in-up">
+                    <div class="achievement-image">
+                        <div class="achievement-overlay">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                    </div>
+                    <div class="achievement-content">
+                        <span class="achievement-category">ندوة توعوية</span>
+                        <h3>العقل أولاً</h3>
+                        <p>ندوة متخصصة بعنوان "كيف نصنع سلوكاً واعياً" استهدفت تأصيل مفاهيم الوعي والتفكير الإيجابي لدى الشباب وتزويدهم بأدوات التغيير الذاتي.</p>
+                        <div class="achievement-stats">
+                            <span><i class="fas fa-users"></i> +150 مشارك</span>
+                            <span><i class="fas fa-star"></i> تفاعل مميز</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Achievement 2 -->
+                <div class="achievement-card fade-in-up" data-delay="0.15">
+                    <div class="achievement-image achievement-image-2">
+                        <div class="achievement-overlay">
+                            <i class="fas fa-box-open"></i>
+                        </div>
+                    </div>
+                    <div class="achievement-content">
+                        <span class="achievement-category">حملة خيرية</span>
+                        <h3>حملة كراتين رمضان</h3>
+                        <p>حملة موسمية ضخمة لتوزيع كراتين رمضان على الأسر المحتاجة، نجحت في توزيع أكثر من 13,000 كرتونة لنشر الفرح في الشهر الكريم.</p>
+                        <div class="achievement-stats">
+                            <span><i class="fas fa-box"></i> 13,000+ كرتونة</span>
+                            <span><i class="fas fa-home"></i> آلاف الأسر</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Achievement 3 -->
+                <div class="achievement-card fade-in-up" data-delay="0.3">
+                    <div class="achievement-image achievement-image-3">
+                        <div class="achievement-overlay">
+                            <i class="fas fa-hand-holding-heart"></i>
+                        </div>
+                    </div>
+                    <div class="achievement-content">
+                        <span class="achievement-category">فعالية مجتمعية</span>
+                        <h3>فعالية أثر طيب</h3>
+                        <p>فعالية شاملة للعمل الاجتماعي والخيري تستهدف دعم الفئات المحتاجة من خلال برامج متنوعة تشمل الدعم المادي والمعنوي.</p>
+                        <div class="achievement-stats">
+                            <span><i class="fas fa-users"></i> +100 مستفيد</span>
+                            <span><i class="fas fa-heart"></i> أثر مستدام</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         Administrative Structure Section
+         ============================================ -->
+    <section class="team" id="team">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <span class="section-badge">قيادتنا</span>
+                <h2 class="section-title">الهيكل الإداري</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="team-grid">
+                <!-- President -->
+                <div class="team-card fade-in-up">
+                    <div class="team-image">
+                        <img src="https://via.placeholder.com/300x350?text=رئيس+المبادرة" alt="الأستاذ أحمد مصطفى - رئيس المبادرة">
+                        <div class="team-overlay">
+                            <div class="team-social">
+                                <a href="#" aria-label="فيسبوك"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" aria-label="لينكد إن"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <span class="team-role">رئيس المبادرة</span>
+                        <h3>الأستاذ أحمد مصطفى</h3>
+                        <p>قائد ملهم يسعى لبناء جيل واعٍ ومؤثر</p>
+                    </div>
+                </div>
+
+                <!-- Vice President -->
+                <div class="team-card fade-in-up" data-delay="0.15">
+                    <div class="team-image">
+                        <img src="https://via.placeholder.com/300x350?text=نائب+الرئيس" alt="مصطفى يسري - نائب الرئيس">
+                        <div class="team-overlay">
+                            <div class="team-social">
+                                <a href="#" aria-label="فيسبوك"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" aria-label="لينكد إن"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <span class="team-role">نائب الرئيس</span>
+                        <h3>مصطفى يسري</h3>
+                        <p>شريك في القيادة والتطوير المستمر</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         Partners Section
+         ============================================ -->
+    <section class="partners" id="partners">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <span class="section-badge">شركاء النجاح</span>
+                <h2 class="section-title">شركاؤنا</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="partners-grid">
+                <!-- Partner 1 -->
+                <div class="partner-card fade-in-up">
+                    <img src="https://i.postimg.cc/j5JjTCvG/FB-IMG-1771079669038.jpg" alt="حزب مستقبل وطن">
+                    <div class="partner-name">حزب مستقبل وطن</div>
+                </div>
+
+                <!-- Partner 2 -->
+                <div class="partner-card fade-in-up" data-delay="0.15">
+                    <img src="https://i.postimg.cc/nz8Jv2GL/FB-IMG-1771079938019.jpg" alt="مركز دريم تيم للتنمية">
+                    <div class="partner-name">مركز دريم تيم للتنمية</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         Social Media Section
+         ============================================ -->
+    <section class="social-media" id="social">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <span class="section-badge">تابعنا</span>
+                <h2 class="section-title">تواصل معنا على منصات التواصل</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="social-grid fade-in-up">
+                <a href="https://www.facebook.com/share/1CS6bZe1NN/" target="_blank" rel="noopener noreferrer" class="social-card social-facebook">
+                    <i class="fab fa-facebook-f"></i>
+                    <span>فيسبوك</span>
+                </a>
+                <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-card social-youtube">
+                    <i class="fab fa-youtube"></i>
+                    <span>يوتيوب</span>
+                </a>
+                <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" class="social-card social-tiktok">
+                    <i class="fab fa-tiktok"></i>
+                    <span>تيك توك</span>
+                </a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-card social-instagram">
+                    <i class="fab fa-instagram"></i>
+                    <span>انستغرام</span>
+                </a>
+                <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer" class="social-card social-whatsapp">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>قناة واتساب</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         Contact & CTA Section
+         ============================================ -->
+    <section class="contact-cta" id="contact">
+        <div class="cta-bg">
+            <div class="cta-shape cta-shape-1"></div>
+            <div class="cta-shape cta-shape-2"></div>
+            <div class="cta-particles">
+                <span></span><span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="container">
+            <div class="cta-content fade-in-up">
+                <div class="cta-icon">
+                    <i class="fas fa-rocket"></i>
+                </div>
+                <h2>كن جزءًا من الأثر… تواصل معنا الآن</h2>
+                <p>انضم إلى عائلة شباب بلا حدود وساهم في صناعة التغيير الإيجابي في مجتمعنا</p>
+                <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="btn btn-cta">
+                    <i class="fas fa-file-alt"></i>
+                    <span>املأ استمارة التطوع الآن</span>
+                    <div class="btn-glow"></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         Footer
+         ============================================ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Footer Brand -->
+                <div class="footer-brand">
+                    <a href="#home" class="footer-logo">
+                        <img src="https://i.postimg.cc/nVyDXfDg/FB-IMG-1771079602601.jpg" alt="شعار مبادرة شباب بلا حدود">
+                        <span>شباب بلا حدود</span>
+                    </a>
+                    <p class="footer-tagline">نصنع وعياً… ونصنع أثراً لا ينتهي</p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/share/1CS6bZe1NN/" target="_blank" rel="noopener noreferrer" aria-label="فيسبوك"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="يوتيوب"><i class="fab fa-youtube"></i></a>
+                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="انستغرام"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="واتساب"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-links">
+                    <h4>روابط سريعة</h4>
+                    <ul>
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#why-volunteer">لماذا التطوع</a></li>
+                        <li><a href="#achievements">إنجازاتنا</a></li>
+                        <li><a href="#team">فريقنا</a></li>
+                        <li><a href="#partners">شركاؤنا</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="footer-contact">
+                    <h4>تواصل معنا</h4>
+                    <ul>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>info@shababborderless.org</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+20 123 456 7890</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>جمهورية مصر العربية</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="footer-newsletter">
+                    <h4>انضم لقائمتنا البريدية</h4>
+                    <p>احصل على آخر الأخبار والفعاليات</p>
+                    <form class="newsletter-form" onsubmit="return false;">
+                        <input type="email" placeholder="بريدك الإلكتروني" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <p>© 2024 جميع الحقوق محفوظة لـ <strong>مبادرة شباب بلا حدود</strong></p>
+                <p>صُنع بـ <i class="fas fa-heart"></i> لخدمة المجتمع</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
